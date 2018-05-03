@@ -1,0 +1,22 @@
+{
+  "name": "ClaendarBuch",
+  "version": "1.0.0",
+  "description": "时岁书：各种历法实现中",
+  "main": "CalendarBuch.js",
+  "scripts": {
+    // 输出CalerdarBuch.js、min.js
+    "zip":"ls",
+    "run":"ls",
+    "print":"node print"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wolfan/CalendarBuch.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wolfan/CalendarBuch/issues"
+  },
+  "homepage": "https://github.com/wolfan/CalendarBuch#readme"
+}
