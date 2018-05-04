@@ -37,6 +37,14 @@ const SIup= '十百千兆吉太拍艾泽尧';
 const SIdw= '分厘毫微纳皮飞阿仄幺';
 // SORT
 
+// 各纪年初始值
+const Kongzi= +551;
+const Xuanyuan= +2698;
+const Buddha= +543;
+const RC= -1912;
+const NK= -1912;
+const Sk= -1919;
+
 // HOUST
 // DAY
 // MOON
