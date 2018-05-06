@@ -1,13 +1,11 @@
 {
   "name": "ClaendarBuch",
   "version": "1.0.0",
-  "description": "时岁书：各种历法实现中",
+  "description": "时岁书；",
   "main": "CalendarBuch.js",
   "scripts": {
-    // 输出CalerdarBuch.js、min.js
-    "zip":"ls",
-    "run":"ls",
-    "print":"node print"
+    "joda": "js-yaml -t data/DA.yaml >DA.json",
+    "jomoon": "js-yaml -t data/moon.yaml >moon.json"
   },
   "repository": {
     "type": "git",
