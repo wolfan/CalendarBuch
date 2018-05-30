@@ -1,7 +1,7 @@
 {
   "name": "ClaendarBuch",
   "version": "1.0.0",
-  "description": "时岁书；",
+  "description": "時歲書",
   "main": "CalendarBuch.js",
   "scripts": {
     "joda": "js-yaml -t data/DA.yaml >DA.json",
