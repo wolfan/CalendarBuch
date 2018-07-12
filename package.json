@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/wolfan/CalendarBuch/issues"
   },
-  "homepage": "https://github.com/wolfan/CalendarBuch#readme"
+  "homepage": "https://github.com/wolfan/CalendarBuch#readme",
+  "devDependencies": {
+    "js-yaml": "^3.12.0"
+  }
 }
