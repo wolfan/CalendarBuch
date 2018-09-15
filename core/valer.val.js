@@ -19,6 +19,13 @@ WN W  S  E  ES N  EN WS			后天
 金 金 火 木 木 水 土 土
 */
 
+/* fonction name list
+	星宫	ast astrologo
+	神方	dio 
+	辞让	amu amuzo
+	纪历	kal kalendaro
+	祭典	fes	festivalo
+	押尾	bet betado	*/
 
 // BASIS
 const g= '甲乙丙丁戊己庚辛壬癸';
