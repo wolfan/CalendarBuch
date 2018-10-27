@@ -11,16 +11,3 @@ const superJaro=(int)=>{return (int %4 == 0&&int %100 !== 0)||(int %100 == 0&&in
 
 
 // 公元前后判断
-function judoAD(int){
-  // 数字判断
-  let i= isNaN(int);
-  // 是否超出极限值
-  let limigo= 2046;
-  // 不是0年
-  let nulo= (int === 0);
-
-  // 判断
-  let malgusta= (i or nulo)? `M! juddoAD()`;
-  // flatante
-  // test
-}

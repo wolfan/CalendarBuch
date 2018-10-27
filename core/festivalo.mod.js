@@ -3,24 +3,15 @@
 // fe(八，十五)  => 中秋节
 // fe(jp,20180815) => 中秋节
 
+const datu={}
 
-function fes(date,month,day,are){
-  let feJson={
-    "元旦":0101,
-    "中秋":0815,
-    "国庆":1001
-  }
-  for(let r in feJson){
-    console.log(feJson.r);
-  }
+// 日期转换，用于读取每日节庆数据。
 
-  let a= date;
-  let b= month;
-  let c= day;
-  let d= are;
+// 农历节庆
 
-  // let R= `N1: ${a},N2: ${b},N3: ${c},N4: ${d}。`;
+// 其它历节庆（伊斯兰、藏历、傣历等）
 
+// 不固定日期节庆
 
-  return R;
-}
+// 节假日休
+const vacation=(datuTago)=>{}
