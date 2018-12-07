@@ -31,7 +31,7 @@ WN W  S  E  ES N  EN WS			后天
 const g= '甲乙丙丁戊己庚辛壬癸';
 const z= '子丑寅卯辰巳午末申酉戌亥';
 const wx= '月火水木金土日';
-const bg= '坤艮坎巽震离兑乾';
+const bg= '坤艮坎巽震离兑乾'; // 12345678
 const gx= '地山水风雷火泽天';
 const sx= '鼠牛虎兔龙蛇马羊猴鸡狗猪';
 const ye= '正二三四五六七八九十冬腊';
