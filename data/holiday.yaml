@@ -1,6 +1,7 @@
 # 节日数据
 # jan feb mar apr may jun jul aug sep oct nov dec
 ---
+# 1.1
 Jan01:
   - 元旦
     - 0
@@ -18,6 +19,7 @@ Jan01:
     - ss
   - 妇女掌权纪念日
     - ch
+# 1.2
 Jan02:
 Jan03:
 Jan04:
@@ -160,7 +162,7 @@ May19:
 May20:
 May21:
 May22:
-May23::
+May23:
 May24:
 May25:
 May26:
@@ -189,7 +191,7 @@ Jun17:
 Jun18:
 Jun19:
 Jun20:
-Jun21::
+Jun21:
 Jun22:
 Jun23:
 Jun24:
@@ -291,7 +293,9 @@ Sep27:
 Sep28:
 Sep29:
 Sep30:
+# 10.1
 Oct01:
+  - 国庆节
 Oct02:
 Oct03:
 Oct04:
@@ -322,6 +326,7 @@ Oct28:
 Oct29:
 Oct30:
 Oct31:
+# 11.1
 Nov01:
 Nov02:
 Nov03:
@@ -352,6 +357,7 @@ Nov27:
 Nov28:
 Nov29:
 Nov30:
+# 12.1
 Dec01:
 Dec02:
 Dec03:
