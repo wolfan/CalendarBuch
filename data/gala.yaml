@@ -2,37 +2,39 @@
 # 道教圣诞
 # https://www.douban.com/note/486001111/
 
+# JAN,FEB,MAR,APR,MAY,JUN,JUL,AUG,SEP,OCT,NOV,DEC.
+
 # 正月
-mouse1:
-mouse15:
+jan:
+jan5:
   - 上元节
   - 上元九炁赐福天官·天官赐福
-mouse18:
+jan8:
   - 神功妙济许真君诞
-mouse19:
+jan9:
   - 广援普度天尊·丘祖诞
 # 二月
-bull1:
-bull2:
+feb1:
+feb2:
   - 龙抬头
   - 龙王祭
 # 三月
-tiger1:
+mar1:
 # 四月
-rabbit1:
+apr1:
 # 五月
-dragon1:
+may1:
 # 六月
-snake1:
+jun1:
 # 七月
-horse1:
+jul1:
 # 八月
-sheep1:
+aug1:
 # 九月
-monkey1:
+sep1:
 # 十月
-chicken1:
+oct1:
 # 冬月
-dog1:
+nov1:
 # 腊月
-pig1:
+dec1:
