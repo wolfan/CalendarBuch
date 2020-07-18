@@ -1,11 +1,13 @@
 // ALL DEF&INIT VALER
 /* STATEMENT VALER CHARACTER
 乾坤震艮离坎兑巽
-☰	☷	☳	☶	☲	☵	☱	☴ 
-伏羲先天：乾巽坎艮坤震离兑
-文王后天：离坤兑乾坎艮震巽
-连山：		艮离震乾兑坎巽坤
-归藏：		坤震离兑乾巽坎艮
+☰	☱	☲	☳	☴	☵ ☶	☷
+	⚌		⚎		⚍		⚏
+		⚊				⚋
+伏羲先天：乾兑离震巽坎艮坤
+文王后天：乾坎艮震巽离坤兑
+连山：		艮离震乾兑坎巽坤	河图
+归藏：		坤震离兑乾巽坎艮	洛书
 文殊：		艮离坎巽震坤乾兑
 
 阳——————————阴——————————
@@ -17,15 +19,39 @@
 S  ES E  EN WS W  WN N			先天
 WN W  S  E  ES N  EN WS			后天
 金 金 火 木 木 水 土 土
-*/
 
-/* fonction name list
+三元风水盘
+天池
+先天
+洛书
+天星
+劫耀煞
+地盘二十四山
+挨星诀
+方图气数
+后天六十四卦（卦词）
+圆图卦数
+先天六十四卦（卦像）
+先天六十四卦（词）
+九星
+甲子
+运数
+三般卦
+六爻
+珠宝线
+节气
+28宿度数
+二十八宿
+周天度数
+
+fonction name list
 	星宫	ast astrologo
 	神方	dio 
 	辞让	amu amuzo
 	纪历	kal kalendaro
 	祭典	fes	festivalo
-	押尾	bet betado	*/
+	押尾	bet betado	
+*/
 
 // BASIS
 const g= '甲乙丙丁戊己庚辛壬癸';

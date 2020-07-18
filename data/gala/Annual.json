@@ -1,0 +1,17 @@
+// 指定各年节庆假期及特殊增补。
+
+{
+  "AD2020":[ 
+    {
+      "title": "端午",
+      "date": [625,627],
+      "description": null,
+      "Attributes": "节",
+      "classification": "民俗",
+      "country": ["zh","jp","kr","vn"]
+    },
+    {}
+  ],
+
+  "AD2021": []
+}

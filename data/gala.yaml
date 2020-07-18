@@ -1,40 +1,50 @@
-# 农历节庆
-# 道教圣诞
-# https://www.douban.com/note/486001111/
+# gala/GL.json to yaml date.
 
-# JAN,FEB,MAR,APR,MAY,JUN,JUL,AUG,SEP,OCT,NOV,DEC.
+# format model.
+# - title: 节日名
+#   date:
+#     - 起（当日为唯一值）
+#     - 止
+#   description: 非必要选项。
+#   attributesclass: 节、庆、假、休、思（纪念日）、典（活动）
+#   classification: 非必要选项，描述节庆分类。
+#   country:
+#     - 国家代码 https://zh.wikipedia.wikimirror.org/wiki/ISO_3166-1%E4%BA%8C%E4%BD%8D%E5%AD%97%E6%AF%8D%E4%BB%A3%E7%A0%81#/SS
 
-# 正月
-jan:
-jan5:
-  - 上元节
-  - 上元九炁赐福天官·天官赐福
-jan8:
-  - 神功妙济许真君诞
-jan9:
-  - 广援普度天尊·丘祖诞
+# 公历日期
+Gregorian:
+# 一月
 # 二月
-feb1:
-feb2:
-  - 龙抬头
-  - 龙王祭
 # 三月
-mar1:
 # 四月
-apr1:
 # 五月
-may1:
 # 六月
-jun1:
 # 七月
-jul1:
 # 八月
-aug1:
 # 九月
-sep1:
 # 十月
-oct1:
-# 冬月
-nov1:
-# 腊月
-dec1:
+# 十一月
+# 十二月
+
+# 农历日期
+Lunar:
+# 一月
+  - title: 圣诞
+    date:
+      - 1225
+    description: null
+    attributes: 节
+    classification: 民俗
+    country:
+      - un
+# 二月
+# 三月
+# 四月
+# 五月
+# 六月
+# 七月
+# 八月
+# 九月
+# 十月
+# 十一月
+# 十二月
