@@ -1,0 +1,70 @@
+
+# gala/GL.json to yaml date.
+# -
+#   day: [op, ed]
+#   gala:
+#   -
+#     ti: 节日名
+#     des: 节期描述（非必要）
+#     tag: fe: 节日、ce: 庆典、ho: 假日、wk: 周末、mm: 纪念日、sm: 运动会、be: 大型活动
+#     are: 区域（un 代表通用，其它参考国家代码。）
+# 
+# 国家代码 https://zh.wikipedia.wikimirror.org/wiki/ISO_3166-1%E4%BA%8C%E4%BD%8D%E5%AD%97%E6%AF%8D%E4%BB%A3%E7%A0%81#/SS
+
+# 公历日期
+Gregorian:
+# JAN(1)
+-
+  day: [101]
+  gala:
+  -
+    ti: 元旦
+    des: 一元复始，万象更新。
+    tag: [fe]
+    are: [un]
+  - ti: 新年
+    des: 日、韩、越等原中华文明圈国家变更历法后使用Gregorian表记原本的时宪历节令时节。
+    tag: [fe]
+    are: [jp, kr, vn]
+# FED(2)
+# MAR(3)
+# APR(4)
+# MAY(5)
+-
+  day: [501,503]
+  gala:
+  -
+    ti: 劳动节
+    tag: [fe, ho]
+    are: [un, cn]
+-
+  day: [504],
+  gala:
+  -
+    ti: 五四青年节
+    tag:
+      - mm
+    are:
+      - cn
+# JUN(6)
+# JUL(7)
+# AUG(8)
+# SEP(9)
+# OCT(10)
+# NOV(111)
+# DEC(12)
+
+# 农历日期
+Lunar:
+# 一月
+# 二月
+# 三月
+# 四月
+# 五月
+# 六月
+# 七月
+# 八月
+# 九月
+# 十月
+# 十一月
+# 十二月

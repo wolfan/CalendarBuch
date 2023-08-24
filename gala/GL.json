@@ -1,0 +1,51 @@
+// 公历、农历固定节庆习俗。
+// https://www.douban.com/note/486001111/
+
+{
+  "Gregorian": [
+    // 一月
+    // 二月
+    // 三月
+    // 四月
+    // 五月
+    // 六月
+    // 七月
+    // 八月
+    // 九月
+    // 十月
+    // 十一月
+    // 十二月
+    {
+      "date": [1225],
+      "title": "圣诞",
+      "description": null,
+      "Attributes": "节",
+      "classification": "民俗",
+      "country": ["un"]
+    }
+  ],
+
+  // 农历固定节庆
+  "Lunar": [
+    // 一月
+    {
+      "date": [115],
+      "title": "元宵",
+      "description": null,
+      "Attributes": "节",
+      "classification": "民俗",
+      "country": ["zh"]
+    },
+    // 二月
+    // 三月
+    // 四月
+    // 五月
+    // 六月
+    // 七月
+    // 八月
+    // 九月
+    // 十月
+    // 十一月
+    // 十二月
+  ]
+}

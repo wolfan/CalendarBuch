@@ -1,0 +1,37 @@
+{
+  "name": "CalendarBuch",
+  "version": "1.0.0",
+  "description": "日历算法什么的吧。",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup -c",
+    "build:b": "rollup -i core/index.js -o calendar.js -f esm",
+    "dev": "rollup -i core/index.js -o calendar.js -f esm -w",
+    "ems": "rollup -i core/index.js -o calendar.ems.js -f esm",
+    "cjs": "rollup -i core/index.js -o calendar.cjs.js -f cjs",
+    "umd": "rollup -i core/index.js -o calendar.umd.js -f umd -n result",
+    "amd": "rollup -i core/index.js -o calendar.amd.js -f amd",
+    "iife": "rollup -i core/index.js -o calendar.iife.js -f iife -n result",
+    "build:all": "npm run ems && npm run cjs"
+  },
+  "type": "module",
+  "dependencies": {},
+  "devDependencies": {
+    "rollup": "^2.53.3",
+    "yaml-js": "^0.2.3",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-uglify": "^6.0.4",
+    "babel-preset-es2015-rollup": "^3.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wolfan/CalendarBuch.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wolfan/CalendarBuch/issues"
+  },
+  "homepage": "https://teksto.site/calendar.html"
+}

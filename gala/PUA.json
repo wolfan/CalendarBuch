@@ -1,0 +1,15 @@
+// 私人指定事件。
+
+
+[
+  {
+    day: 1,
+    lunar: {
+      tago: "初一",
+      sunaj: "中秋"
+    },
+    gala: [],
+    event: [],
+    history: []
+  }
+]
