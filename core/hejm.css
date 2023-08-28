@@ -1,0 +1,82 @@
+body{
+  font-size: .9rem;
+  line-height: 1.2rem;
+  color: var(--color);
+}
+
+@font-face {
+  font-family: '9083';
+  src: url('../res//font/9083.ttf') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: '6038';
+  src: url('../res//font/6038.ttf') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+}
+
+
+#Hejm{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+
+  grid-template-columns: 100%;
+}
+
+#Screen{
+  font-size: 15rem;
+  font-family: "9083";
+  line-height: 18rem;
+  text-align: center;
+
+  /* transition: all 500ms; */
+  animation-iteration-count: infinite;
+}
+
+#Navigado{}
+#Navigado > .ng{
+  display: inline-block;
+  background-color: var(--dark);
+  color: var(--white);
+  padding: .6rem .9rem;
+  font-size: 1rem;
+  border: .2rem solid var(--dark-lg);
+  border-radius: 1rem;
+}
+
+
+
+
+/*base code*/
+.animated {
+  /* -webkit-animation-duration: 1s; */
+  animation-duration: 3s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+.animated.infinite {
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+.animated.hinge {
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+}
+@keyframes flash {
+  0%, 100%, 50% {
+    opacity: 1
+  }
+  25%,
+  75% {
+    opacity: .5
+  }
+}
+.flip {
+  -webkit-animation-name: flash;
+  animation-name: flash
+}

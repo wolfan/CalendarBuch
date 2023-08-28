@@ -1,0 +1,210 @@
+body{
+  margin: 0 auto;
+  font-size: .9rem;
+  line-height: 1.2rem;
+  color: var(--color);
+}
+
+
+#Calendar{
+  height: calc(100vh - 1.2rem);
+  border: .2rem solid var(--border);
+  border-radius: .6rem;
+  margin: .3rem;
+  cursor: default;
+}
+
+/* 台头 */
+#Calendar-kap{
+  height: 6rem;
+  border-bottom: 1px solid var(--border);
+  border-radius: .6rem .6rem 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--bg-sup);
+}
+#Calendar-prior,
+#Calendar-next{
+  font-size: 3rem;
+  flex: 0 1 3.3rem;
+  text-align: center;
+}
+#Calendar-prior:hover,
+#Calendar-next:hover{
+  color: var(--dark);
+}
+#Calendar-prior::before,
+#Calendar-next::before{
+  content: attr(data-ti);
+}
+
+#Calendar-ti{
+  text-align: center;
+  flex: 1 0 auto;
+}
+#Calendar-ti > h5{
+  font-size: 1.5rem;
+  line-height: 1.8rem;
+  margin: .9rem auto .3rem;
+}
+#Calendar-ti > p{
+  margin: 0;
+  color: var(--color-sup);
+}
+
+/* 星期 */
+#Calendar-week{
+  display: flex;
+}
+#Calendar-week > .week{
+  flex: 1 0 auto;
+  text-align: center;
+  border-right: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+}
+
+/* 日期 */
+#Calendar-table{
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  height: calc(100vh - 6rem - 2.5rem);
+  border-radius: 0 0 .6rem .6rem;
+}
+/* #Calendar-table > .day{} */
+
+.day{
+  border-right: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+}
+/* .day:nth-child(7n+0){color: green!important;} */
+.day:nth-child(7n+1){border-left: 1px solid var(--border);}
+/* .day:nth-child(29){border-radius: 0 0 0 .6rem;} */
+/* .day:last-child{border-radius: 0 0 .6rem 0;} */
+
+/* 周末样式 */
+.week{
+  color: var(--dark);
+}
+.ne{
+  color: var(--color-sup)!important;
+}
+.el{
+  font-weight: 600;
+}
+
+.day-ti{
+  display: flex;
+  padding: .3rem;
+  align-items: center;
+  background: var(--bg);
+  position: sticky;
+  top: 0;
+  z-index: 9;
+}
+.day-message{
+  flex: 1 0 auto;
+  color: var(--color-sup);
+}
+.daily{
+  flex: 0 1 1.2rem;
+  padding: .1rem;
+  background-color: var(--red);
+  border-radius: 1rem;
+  text-align: center;
+  color: var(--white);
+}
+.day,
+.day-list{
+  overflow: auto;
+}
+.lz{
+  margin: .1rem;
+  padding: .1rem .2rem;
+  width: calc(100% - 1rem);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+ }
+ .lz:hover{
+  opacity: .8;
+ }
+
+/**
+ * orange: 节日
+ * gold: 传统节日
+ * green: 节气、
+ * purple: 纪念日、
+ * blue: 活动大会、庆典、
+ * cyan: 运动会、
+ * pink: 节假日、休假日、
+ * red: 特殊日期。
+ */
+.lz,
+.gray{
+  background-color: var(--gray);
+  border: .2rem solid var(--gray-lg);
+  border-radius: .3rem;
+  color: var(--white);
+}
+.red{
+  background-color: var(--red);
+  border: .2rem solid var(--red-lg);
+  border-radius: .3rem;
+  color: var(--white);
+}
+.orange{
+  background-color: var(--orange);
+  border: .2rem solid var(--orange-lg);
+  border-radius: .3rem;
+  color: var(--white);
+}
+.gold{
+  background-color: var(--gold);
+  border: .2rem solid var(--gold-lg);
+  border-radius: .3rem;
+  color: var(--white);
+}
+.green{
+  background-color: var(--green);
+  border: .2rem solid var(--green-lg);
+  border-radius: .3rem;
+  color: var(--white);
+}
+.cyan{
+  background-color: var(--cyan);
+  border: .2rem solid var(--cyan-lg);
+  border-radius: .3rem;
+  color: var(--white);
+}
+.blue{
+  background-color: var(--blue);
+  border: .2rem solid var(--blue-lg);
+  border-radius: .3rem;
+  color: var(--white);
+}
+.purple{
+  background-color: var(--purple);
+  border: .2rem solid var(--purple-lg);
+  border-radius: .3rem;
+  color: var(--white);
+}
+.bower{
+  background-color: var(--bower);
+  border: .2rem solid var(--bower-lg);
+  border-radius: .3rem;
+  color: var(--white);
+}
+.pink{
+  background-color: var(--pink);
+  border: .2rem solid var(--pink-lg);
+  border-radius: .3rem;
+  color: var(--white);
+}
+.dark{
+  background-color: var(--dark);
+  border: .2rem solid var(--dark-lg);
+  border-radius: .3rem;
+  color: var(--white);
+}

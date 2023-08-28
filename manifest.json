@@ -1,0 +1,21 @@
+{
+  "name"            : "Mezopotamio",
+  "short_name"      : "Mz",
+  "start_url"       : "/",
+  "scope"           : "/",
+  "display"         : "standalone",
+  "background_color": "#f9f9f9",
+  "theme_color"     : "#30393f",
+  "icons"           : [
+    {
+      "src"  : "res/Time.png",
+      "sizes": "160x160",
+      "type" : "image/png"
+    },
+    {
+      "src"  : "res/Bigai.png",
+      "sizes": "256x256",
+      "type" : "image/png"
+    }
+  ]
+}
